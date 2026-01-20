@@ -107,3 +107,11 @@ my_service_365/
 
 ### ปัญหา: Microsoft Visual C++ 14.0 required
 **วิธีแก้:** อัปเดต `requirements.txt` เป็นเวอร์ชันใหม่ที่มี pre-built wheels (ทำไว้แล้ว)
+
+
+การรัน เข้า Service_ชื่อ a b c
+เข้า cmd 
+รัน py -3.13 main.py  
+ดูใน http://localhost:8000/
+http://localhost:8001/
+http://localhost:8002/
