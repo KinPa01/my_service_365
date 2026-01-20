@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package demo;
+
+service MyService {
+  // ฟังก์ชันรับส่งข้อมูล
+  rpc GetData (RequestMsg) returns (ReplyMsg);
+}
+
+message RequestMsg {
+  string name = 1;
+}
+
+message ReplyMsg {
+  string message = 1;
+}
